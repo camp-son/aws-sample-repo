@@ -4,4 +4,4 @@ console.log(echo('Hello world!'));
 
 setTimeout(() => {
     alert('Welcome to mysite');
-});
+}, 3000);
