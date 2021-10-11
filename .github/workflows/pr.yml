@@ -4,7 +4,7 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  Explore-GitHub-Actions:
+  Build and Test:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Need build & test step"
