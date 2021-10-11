@@ -20,13 +20,19 @@
 
 # 구성
 
-실습에서는 `Github`와 `AWS`를 이용하여 코드를 수정하고 프로덕션 환경까지 배포하는 형태로 구성하였습니다.
+실습에서는 `Github`와 `AWS`를 이용하여 코드를 수정하고 프로덕션 환경까지 배포하는 형태로 구성하였습니다. `master` 브랜치에 있는 코드를 배포하는 타겟으로 합니다.
 
 - [x] `master`에는 직접 푸시를 못하고 PR을 통해서만 코드가 통합되도록 합니다.
-- [ ] `master` 브랜치에 있는 코드를 배포하는 타겟으로 합니다.
 - [x] PR이 생성되면 테스트 및 빌드를 실행하도록 합니다.(Build는 React에 적용할 때 추가)
     - `npm ci` or `yarn --frozen-lockfile` 명령어를 이용하면 빠르고 안정적인 빌드를 할 수 있습니다.
 - [ ] PR이 머지되면 AWS에 배포되도록 합니다.(단계적으로 갑시다.)
 
+# Github
+
+## 브랜치 설정
+
+1. Settings > Branches 에서 Rule을 생성합니다.
+
+
 # 참조
-- `compare npm ci command` https://github.com/zkat/node-package-manager-benchmark/tree/zkat/cipm
+- [Compare npm ci command](https://github.com/zkat/node-package-manager-benchmark/tree/zkat/cipm)
