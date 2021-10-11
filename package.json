@@ -1,0 +1,19 @@
+{
+  "name": "aws-sample-repo",
+  "version": "1.0.0",
+  "description": "# 개요",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camp-son/aws-sample-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camp-son/aws-sample-repo/issues"
+  },
+  "homepage": "https://github.com/camp-son/aws-sample-repo#readme"
+}
