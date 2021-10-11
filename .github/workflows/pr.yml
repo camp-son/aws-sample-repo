@@ -11,11 +11,9 @@ jobs:
       matrix:
         node-version: [14.x]
 
-    steps:
-      - run: echo "Need build & test step"
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - run: echo "Need build & test step"
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
