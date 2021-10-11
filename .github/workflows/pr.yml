@@ -1,10 +1,9 @@
 name: GitHub Actions Demo
 on: 
   push:
-    branches:
-      - master
+    branches: [master]
   pull_request:
-    types: [opened]
+    types: [opened, synchronize, reopened]
 
 jobs:
   Explore-GitHub-Actions:
