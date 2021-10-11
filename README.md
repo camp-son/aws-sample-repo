@@ -89,10 +89,6 @@ Codedeploy를 사용할 때 만들어진 패키징 된 파일을 사용하여 �
 
 모두 설정했으면 빌드 프로젝트를 생성합니다.
 
-### Github Actions 파일 수정하기
-
-
-
 
 ## Codedeploy
 
