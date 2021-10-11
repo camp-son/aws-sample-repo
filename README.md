@@ -89,14 +89,49 @@ Codedeploy를 사용할 때 만들어진 패키징 된 파일을 사용하여 �
 
 모두 설정했으면 빌드 프로젝트를 생성합니다.
 
-### Github Actions 파일 수정하기
-
-
-
-
 ## Codedeploy
 
+1. 역할을 [생성](https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/getting-started-provision-user.html)합니다.
+1. 배포를 생성합니다.
+1. 배포 그룹을 생성합니다.
+1. EC2 인스턴스를 구성합니다.
+1. 태그를 추가합니다.
+1. 배포 설정을 합니다.
+1. appspec.yml 파일을 추가합니다.
+
 ## Codepipeline
+
+Codepipeline을 이용하여 build, deploy 과정을 한번에 생성할 수 있습니다.
+
+### Pipeline 설정
+
+1. Codepipeline을 새로 생성합니다.
+1. 파이프라인에 대한 새로운 역할을 생성합니다.
+1. 다음 단계로 이동합니다.
+
+### Repository 설정
+
+1. `Github 버전 2` 공급자를 선택합니다.
+1. Github 연결을 통해 새앱을 만들고 [연결](https://docs.aws.amazon.com/ko_kr/codepipeline/latest/userguide/connections-github.html)합니다.
+1. 연결된 앱에 있는 레파지토리, 브랜치를 선택합니다.
+1. 다음 단계로 이동합니다.
+
+### Build stage 설정
+
+1. AWS Codebuild를 선택합니다.
+1. 기존 서비스에 대한 빌드가 있다면 선택하고, 없다면 빌드를 새로 [생성](#codebuild)합니다.
+1. 다음 단계로 이동합니다.
+
+### Deploy stage 설정
+
+1. AWS Codedeploy를 선택합니다.
+1. 배포하고자 하는 배포를 선택합니다.
+1. 배포 내에 그룹을 선택합니다.
+1. 다음 단계로 이동합니다.
+
+### Pipeline 생성
+
+입력한 내용이 맞다면 파이프라인 생성을 합니다. 생성을 하면 생성된 파이프라인이 실행되면서 테스트를 확인해볼 수 있습니다.
 
 
 # 참조
