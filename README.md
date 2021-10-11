@@ -31,7 +31,7 @@
 
 ## 브랜치 설정
 
-1. Settings > Branches 에서 Rule을 생성합니다..
+1. Settings > Branches 에서 Rule을 생성합니다.
 
 
 # 참조
