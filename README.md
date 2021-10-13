@@ -162,3 +162,12 @@ Codepipeline을 이용하여 build, deploy 과정을 한번에 생성할 수 있
 
 ### Pipeline 생성
 입력한 내용이 맞다면 파이프라인 생성을 합니다. 생성을 하면 생성된 파이프라인이 실행되면서 테스트를 확인해볼 수 있습니다.
+
+# 활용
+
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/Flow.drawio.png?raw=true)
+
+# 느낀점
+
+CICD에 대해 알게 되었고, 인프라는 어떻게 구성하느냐에 따라 천차만별이라는 생각이 들었습니다.
+물론 제일 심플한 형태만을 보긴 했지만, 자세히는 몰라도 플로우만이라도 알고 어떻게 돌아가는지 알면 좋을 것 같습니다.
