@@ -165,5 +165,11 @@ Codepipeline을 이용하여 build, deploy 과정을 한번에 생성할 수 있
 
 # 활용
 
-![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/Flow.drawio.png?raw=true)
+## CICD: Simple 
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/0-Flow.drawio.png?raw=true)
 
+## CICD(Deployment): Development & Production environment
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/1-Flow.drawio.png?raw=true)
+
+## CICD(Delivery): Development & Production environment
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/2-Flow.drawio.png?raw=true)
