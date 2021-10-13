@@ -162,3 +162,14 @@ Codepipeline을 이용하여 build, deploy 과정을 한번에 생성할 수 있
 
 ### Pipeline 생성
 입력한 내용이 맞다면 파이프라인 생성을 합니다. 생성을 하면 생성된 파이프라인이 실행되면서 테스트를 확인해볼 수 있습니다.
+
+# 활용
+
+## CICD: Simple 
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/0-Flow.drawio.png?raw=true)
+
+## CICD(Deployment): Development & Production environment
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/1-Flow.drawio.png?raw=true)
+
+## CICD(Delivery): Development & Production environment
+![Flow.drawio.png](https://github.com/camp-son/aws-sample-repo/blob/master/drawio/2-Flow.drawio.png?raw=true)
